@@ -1,7 +1,7 @@
 {
   "name": "@mycro-ui/react",
   "version": "1.0.0",
-  "description": "the future of design systems, create beautiful websites with utility first customizable components",
+  "description": "the future of design systems, build beautiful websites with utility first customizable components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
