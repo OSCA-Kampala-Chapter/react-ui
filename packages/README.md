@@ -2,11 +2,14 @@
 
 <h1 align="center">Build beautiful web apps with utility first customizable components</h1>
 
-Quick start
+### Quick start
 
-Create a folder and make it your current working directory:
+Inside your root project directory, install `@mycro-ui/react`
 
-mkdir my-app
-cd my-app
+```sh
+npm i @mycro-ui/react
 
-Generate a fastify project with npm init:
+or
+
+yarn add @mycro-ui/react
+```
