@@ -11,7 +11,11 @@
     "ui",
     "components"
   ],
-  "author": "HassanBahati",
+  "author": {
+    "name": "HassanBahati",
+    "email": "mukisabahati@gmail.com",
+    "url": "https://github.com/HassanBahati"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.18",
