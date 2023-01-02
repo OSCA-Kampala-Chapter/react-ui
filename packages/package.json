@@ -1,5 +1,5 @@
 {
-  "name": "@mycro-ui/react",
+  "name": "@reactui-org/core",
   "version": "1.0.0",
   "description": "the future of design systems, build beautiful websites with utility first customizable components",
   "main": "index.js",
@@ -8,18 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mycro-ui/mycro-ui.git"
+    "url": "git+https://github.com/mycro-ui/react-ui.git"
   },
   "keywords": [
-    "mycro-ui"
+    "react-ui",
+    "react",
+    "iu"
   ],
   "author": "HassanBahati",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mycro-ui/mycro-ui/issues"
+    "url": "https://github.com/mycro-ui/react-ui/issues"
   },
-  "homepage": "https://github.com/mycro-ui/mycro-ui#readme",
+  "homepage": "https://github.com/mycro-ui/react-ui#readme",
   "dependencies": {
-    "@mycro-ui/react": "^1.0.0"
+    "@reactui-org/core": "^1.0.0"
   }
 }
