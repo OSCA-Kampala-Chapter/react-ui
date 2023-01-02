@@ -1,6 +1,6 @@
 <b><h1 align="center">React UI</h1></b>
 
-<h1 align="center">The React Component Library</h1>
+<h1 align="center">The React Component Library:sparkles:</h1>
 
 ### Quick start
 
