@@ -1,15 +1,15 @@
-<b><h1 align="center">mycro-ui</h1></b>
+<b><h1 align="center">React UI</h1></b>
 
-<h1 align="center">The React UI Component Library</h1>
+<h1 align="center">The React Component Library</h1>
 
 ### Quick start
 
-Inside your root project directory, install `@mycro-ui/react`
+Inside your root project directory, install `@reactui-org/core`
 
 ```sh
-npm i @mycro-ui/react
+npm i @reactui-org/core --save
 
 or
 
-yarn add @mycro-ui/react
+yarn add @reactui-org/core
 ```
