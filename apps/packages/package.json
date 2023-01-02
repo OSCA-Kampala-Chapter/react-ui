@@ -15,11 +15,7 @@
     "react",
     "iu"
   ],
-  "author": {
-    "name": "HassanBahati",
-    "email": "mukisabahati@gmail.com",
-    "url": "https://github.com/HassanBahati"
-  },
+  "author": "HassanBahati",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mycro-ui/react-ui/issues"
