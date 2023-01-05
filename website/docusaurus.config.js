@@ -125,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hassan Bahati. Built with Docusaurus.`,
+        copyright: `Designed and built with ❤️ Copyright © ${new Date().getFullYear()} Hassan Bahati.`,
       },
       prism: {
         theme: lightCodeTheme,
