@@ -13,9 +13,9 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-      - run: cd website
       - name: Git Checkout
         uses: actions/checkout@v3
+        working-directory: ./website
       - name: Setup Node
         uses: actions/setup-node@v3
         # with:
