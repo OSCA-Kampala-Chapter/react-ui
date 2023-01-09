@@ -14,6 +14,9 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v1
+      - name: Setup and run tests
+        working-directory: ./website
       - name: Git Checkout
         uses: actions/checkout@v3
       - name: Setup Node
@@ -30,4 +33,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
           branch: gh-pages # The branch the action should deploy to
-          folder: build/website # The folder the action should deploy
+          folder: build # The folder the action should deploy
