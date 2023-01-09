@@ -6,9 +6,6 @@ on:
     branches:
       - main
 
-env:
-  BASE_URL: /
-
 jobs:
   build_and_deploy:
     name: Build and Deploy
@@ -28,8 +25,7 @@ jobs:
         npm install
         CI=false npm run build
 
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.1.6
+    - name: Deploy website
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages # The branch the action should deploy to
-        folder: website/static # The folder the action should deploy
+        folder: website/build # The folder the action should deploy
