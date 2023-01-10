@@ -1,3 +1,4 @@
+# deployes the website at ./website
 name: Build and Deploy
 
 on:
@@ -5,31 +6,26 @@ on:
     branches:
       - main
 
-env:
-  BASE_URL: /
-
 jobs:
   build_and_deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-      - name: Setup and run tests
-        working-directory: ./website
-      - name: Git Checkout
-        uses: actions/checkout@v3
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        # with:
-        #   node-version-file: '.nvmrc'
-      - name: Install Packages
-        run: npm install
-      - name: Build App
-        run: npm run build
-      - name: Copy Static Files
-        run: cp -r static/ build/website/
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.6
-        with:
-          branch: gh-pages # The branch the action should deploy to
-          folder: build # The folder the action should deploy
+    - name: Checkout codebase
+      uses: actions/checkout@v3
+        
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      # with:
+        # node-version-file: '.nvmrc'
+          
+    - name: Install dependecies and build
+      run: |
+        cd website/
+        npm install
+        CI=false npm run build
+
+    - name: Deploy website
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: website/build # The folder the action should deploy
