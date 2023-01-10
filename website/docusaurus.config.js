@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: ' OSCA-Kampala-Chapter/react-ui', // Usually your GitHub org/user name.
+  organizationName: ' OSCA-Kampala-Chapter', // Usually your GitHub org/user name.
   projectName: 'react-ui', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
