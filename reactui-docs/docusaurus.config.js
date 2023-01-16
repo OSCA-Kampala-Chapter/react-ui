@@ -9,7 +9,7 @@ const config = {
   title: "React UI",
   tagline: "The React Components Library",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  baseUrl: process.env.BASE_URL,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
