@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreactui_documentation=self.webpackChunkreactui_documentation||[]).push([[7940],{7990:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/react-ui/blog/tags/docusaurus","allTagsPath":"/react-ui/blog/tags","count":4}')}}]);
