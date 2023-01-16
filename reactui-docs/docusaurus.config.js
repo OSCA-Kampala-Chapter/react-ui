@@ -4,12 +4,14 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+const BASE_URL = process.env.BASE_URL ?? '/'
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "React UI",
   tagline: "The React Components Library",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: process.env.BASE_URL,
+  baseUrl: BASE_URL,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
