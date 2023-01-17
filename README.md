@@ -3,7 +3,7 @@
 <h1 align="center">The React Components Library:sparkles:</h1>
 
 - :heavy_check_mark: Headless unstyled Components, build your custom UX! 
-- :rocket: Tailwind CSS Components
+- :rocket: Tailwind CSS Components, do more with less classes!
 
 
 
