@@ -1,8 +1,8 @@
 <b><h1 align="center">React UI</h1></b>
 
 <h1 align="center">The React Components Library:sparkles:</h1>
-- ✅ Headless unstyled Components, build your custom UX! 
-- :rocket: Tailwind CSS Components
+✅ Headless unstyled Components, build your custom UX! 
+:rocket: Tailwind CSS Components
 
 
 ### Quick start
