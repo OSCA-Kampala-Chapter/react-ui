@@ -13,3 +13,7 @@ or
 
 yarn add @reactui-org/core
 ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
