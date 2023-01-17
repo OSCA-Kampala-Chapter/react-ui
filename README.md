@@ -20,3 +20,6 @@ yarn add @reactui-org/core
 :clipboard: [React UI Documentation](https://github.com/OSCA-Kampala-Chapter/react-ui/tree/main/reactui-docs)
 :office: [Website](https://github.com/OSCA-Kampala-Chapter/react-ui/tree/main/website) 
 
+## License
+
+[MIT](https://github.com/OSCA-Kampala-Chapter/react-ui/blob/main/LICENSE)
