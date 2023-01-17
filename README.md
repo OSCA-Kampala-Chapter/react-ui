@@ -16,4 +16,4 @@ yarn add @reactui-org/core
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/OSCA-Kampala-Chapter/react-ui/blob/main/LICENSE)
