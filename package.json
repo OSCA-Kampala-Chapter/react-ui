@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint --cache \"**/*.{js,jsx,ts,tsx,md,mdx,mjs}\"",
-    "lint:js:fix": "eslint \"**/*.{js,jsx,ts,tsx,md,mdx,mjs}\" --fix"
+    "lint:js:fix": "eslint \"**/*.{js,jsx,ts,tsx,md,mdx,mjs}\" --fix",
+    "prepare": "husky install"
   },
   "keywords": [
     "react",
@@ -21,6 +22,12 @@
     "@typescript-eslint/parser": "^5.48.2",
     "eslint": "^8.32.0",
     "eslint-plugin-react": "^7.32.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "2.8.3",
     "typescript": "^4.9.4"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }

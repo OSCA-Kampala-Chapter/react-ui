@@ -14,21 +14,21 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout codebase
-      uses: actions/checkout@v3
-        
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      # with:
-        # node-version-file: '.nvmrc'
-          
-    - name: Install dependecies and build
-      run: |
-        cd reactui-docs/
-        npm install
-        CI=false npm run build
+      - name: Checkout codebase
+        uses: actions/checkout@v3
 
-    - name: Deploy Docs
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: reactui-docs/build # The folder the action should deploy
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        # with:
+        # node-version-file: '.nvmrc'
+
+      - name: Install dependecies and build
+        run: |
+          cd reactui-docs/
+          npm install
+          CI=false npm run build
+
+      - name: Deploy Docs
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: reactui-docs/build # The folder the action should deploy
