@@ -2,7 +2,8 @@
   "name": "react-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "apps/packages/index.js",
+  "module": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint --cache \"**/*.{js,jsx,ts,tsx,md,mdx,mjs}\"",
@@ -18,8 +19,11 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
     "eslint": "^8.32.0",
     "eslint-plugin-react": "^7.32.1",
     "husky": "^8.0.3",
@@ -29,5 +33,9 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "peerDependencies": {
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0"
   }
 }
