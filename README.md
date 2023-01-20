@@ -7,15 +7,25 @@
 
 ### Quick start
 
-Inside your root project directory, install `@reactui-org/core`
+Inside your root project directory, run;
 
 ```sh
-npm i @reactui-org/core --save
-
-or
-
-yarn add @reactui-org/core
+npm install @reactui-org/core --save
 ```
+
+### Usage
+
+```jsx
+// Button Component Example
+<Button backgroundColor="#000" color="#fff">
+My Button
+<Button/>
+```
+
+| Button Props    | Expected Data Type |
+| --------------- | ------------------ |
+| backgroundColor | String             |
+| color           | String             |
 
 :clipboard: [React UI Documentation](https://github.com/OSCA-Kampala-Chapter/react-ui/tree/main/reactui-docs)
 :office: [Website](https://github.com/OSCA-Kampala-Chapter/react-ui/tree/main/website)
