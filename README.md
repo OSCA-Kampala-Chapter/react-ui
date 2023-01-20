@@ -17,6 +17,8 @@ npm install @reactui-org/core --save
 
 ```jsx
 // Button Component Example
+import { Button } from '@reactui-org/core'
+
 <Button backgroundColor="#000" color="#fff">
 My Button
 <Button/>
