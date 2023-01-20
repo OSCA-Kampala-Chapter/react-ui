@@ -1,0 +1,42 @@
+{
+  "name": "@reactui-org/core",
+  "version": "1.0.0",
+  "description": "the future of design systems, build beautiful websites with utility first customizable components",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/ && prettier --write src/ && pnpm run build:esm && pnpm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSCA-Kampala-Chapter/react-ui.git"
+  },
+  "keywords": [
+    "react-ui",
+    "react",
+    "iu"
+  ],
+  "author": "HassanBahati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OSCA-Kampala-Chapter/react-ui/issues"
+  },
+  "homepage": "https://github.com/OSCA-Kampala-Chapter/react-ui#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
