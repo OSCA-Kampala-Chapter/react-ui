@@ -32,7 +32,7 @@ const Layout = ({ children, title }: LayoutProps) => {
                 <a className="p-2">COMPONENTS</a>
               </Link>
               <Link href="/feedback">
-                <a className="p-2">COMPONENTS</a>
+                <a className="p-2">FEEDBACK</a>
               </Link>
             </div>
             <div>
