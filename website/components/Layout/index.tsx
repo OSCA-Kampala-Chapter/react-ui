@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import GitHubButton from "react-github-btn";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -35,7 +36,15 @@ const Layout = ({ children, title }: LayoutProps) => {
               </Link>
             </div>
             <div>
-              <a className="p-2">STAR ON GITHUB</a>
+              <GitHubButton
+                href="https://github.com/OSCA-Kampala-Chapter/react-ui"
+                data-icon="octicon-star"
+                aria-label="Star Reat UI on GitHub"
+                data-size="large"
+                data-show-count="true"
+              >
+                Star
+              </GitHubButton>
             </div>
           </nav>
         </header>
