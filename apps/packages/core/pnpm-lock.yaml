@@ -1,0 +1,135 @@
+lockfileVersion: 5.4
+
+specifiers:
+  "@types/node": ^18.11.18
+  "@types/react": ^18.0.27
+  "@types/react-dom": ^18.0.10
+  prettier: ^2.8.3
+  react: ^18.2.0
+  react-dom: ^18.2.0
+  typescript: ^4.9.4
+
+devDependencies:
+  "@types/node": 18.11.18
+  "@types/react": 18.0.27
+  "@types/react-dom": 18.0.10
+  prettier: 2.8.3
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+  typescript: 4.9.4
+
+packages:
+  /@types/node/18.11.18:
+    resolution:
+      {
+        integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==,
+      }
+    dev: true
+
+  /@types/prop-types/15.7.5:
+    resolution:
+      {
+        integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==,
+      }
+    dev: true
+
+  /@types/react-dom/18.0.10:
+    resolution:
+      {
+        integrity: sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==,
+      }
+    dependencies:
+      "@types/react": 18.0.27
+    dev: true
+
+  /@types/react/18.0.27:
+    resolution:
+      {
+        integrity: sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==,
+      }
+    dependencies:
+      "@types/prop-types": 15.7.5
+      "@types/scheduler": 0.16.2
+      csstype: 3.1.1
+    dev: true
+
+  /@types/scheduler/0.16.2:
+    resolution:
+      {
+        integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==,
+      }
+    dev: true
+
+  /csstype/3.1.1:
+    resolution:
+      {
+        integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==,
+      }
+    dev: true
+
+  /js-tokens/4.0.0:
+    resolution:
+      {
+        integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==,
+      }
+    dev: true
+
+  /loose-envify/1.4.0:
+    resolution:
+      {
+        integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==,
+      }
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: true
+
+  /prettier/2.8.3:
+    resolution:
+      {
+        integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==,
+      }
+    engines: { node: ">=10.13.0" }
+    hasBin: true
+    dev: true
+
+  /react-dom/18.2.0_react@18.2.0:
+    resolution:
+      {
+        integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==,
+      }
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: 1.4.0
+      react: 18.2.0
+      scheduler: 0.23.0
+    dev: true
+
+  /react/18.2.0:
+    resolution:
+      {
+        integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==,
+      }
+    engines: { node: ">=0.10.0" }
+    dependencies:
+      loose-envify: 1.4.0
+    dev: true
+
+  /scheduler/0.23.0:
+    resolution:
+      {
+        integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==,
+      }
+    dependencies:
+      loose-envify: 1.4.0
+    dev: true
+
+  /typescript/4.9.4:
+    resolution:
+      {
+        integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==,
+      }
+    engines: { node: ">=4.2.0" }
+    hasBin: true
+    dev: true
