@@ -35,9 +35,12 @@ My Button
 
 ## :construction: Thanks to all Contributors.
 
-Thank you for spending time to contribute to **our mission of creating the future of design systems, enabling everyone to build beautiful web apps with utility first customizable components**. Thank you so much:heart:! Keep rocking:rocket:
+Thank you for spending time to contribute to **our mission of creating the future of design systems, enabling everyone to build beautiful web apps with utility first customizable components**.
+Thank you so much:heart:! Keep rocking:rocket:
 
 [![Contributors](https://contrib.rocks/image?repo=OSCA-Kampala-Chapter/react-ui)](https://github.com/OSCA-Kampala-Chapter/react-ui/graphs/contributors)
+
+Want to contribute? Get stared with our [Contributing Guide](https://github.com/OSCA-Kampala-Chapter/react-ui/blob/main/CONTRIBUTING.md).
 
 ## License
 
