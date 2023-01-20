@@ -28,6 +28,7 @@ My Button
 | --------------- | ------------------ |
 | backgroundColor | String             |
 | color           | String             |
+| props           | Any                |
 
 :clipboard: [React UI Documentation](https://github.com/OSCA-Kampala-Chapter/react-ui/tree/main/reactui-docs)
 :office: [Website](https://github.com/OSCA-Kampala-Chapter/react-ui/tree/main/website)
