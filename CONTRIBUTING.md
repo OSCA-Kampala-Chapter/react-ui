@@ -133,12 +133,12 @@ Start the server
   npm run start
 ```
 
-### Wiriting your a component
+### Writing your component
 
 Overview of `apps/packages/core/package.json`
 `peerDependencies` exist in Readme file because we want to tell `react` and `react-dom` to use the versions of the installed dependencies rather than installing others.
 
-Two versions of the javasript code are compiled (one for users of vanila javascript and the other for users using typesript)
+Two versions of the javasript code are compiled (one for users of vanilla javascript and the other for users using typescript)
 
 - `/apps/packages/core/dist/cjs` - commonJS module
 - `/apps/packages/core/dist/esm` - esm module
