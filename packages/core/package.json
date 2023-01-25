@@ -1,6 +1,6 @@
 {
   "name": "@reactui-org/core",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "the future of design systems, build beautiful websites with utility first customizable components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
