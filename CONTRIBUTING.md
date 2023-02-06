@@ -12,9 +12,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 > - Mention the project at local meetups and tell your friends/colleagues
 
 ## Table of Contents
-
-- [Contributing to react-ui](#contributing-to-react-ui)
-  - [Table of Contents](#table-of-contents)
   - [I Have a Question](#i-have-a-question)
   - [I Want To Contribute](#i-want-to-contribute)
     - [Can I implement feature X?](#can-i-implement-feature-x?)
