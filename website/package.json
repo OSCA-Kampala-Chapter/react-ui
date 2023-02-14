@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "next": "12.1.6",
+    "nextra": "^2.2.14",
+    "nextra-theme-docs": "^2.2.14",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-github-btn": "^1.4.0"
