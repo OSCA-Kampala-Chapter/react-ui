@@ -14,16 +14,17 @@ jobs:
       - name: Checkout codebase
         uses: actions/checkout@v3
 
-      - name: Setup Node
+      - name: Setup Node.js 16.x
         uses: actions/setup-node@v3
-        # with:
+        with:
+          node-version: "16.x"
         # node-version-file: '.nvmrc'
 
       - name: Install dependecies and build
         run: |
           cd website/
-          npm install
-          CI=false npm run build && npm run export && touch ./out/.nojekyll
+          npm ci
+          npm run build && npm run export && touch ./out/.nojekyll
 
       - name: Deploy Website
         uses: JamesIves/github-pages-deploy-action@v4.4.1
