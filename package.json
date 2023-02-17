@@ -8,8 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint --cache \"**/*.{js,jsx,ts,tsx,md,mdx,mjs}\"",
     "lint:js:fix": "eslint \"**/*.{js,jsx,ts,tsx,md,mdx,mjs}\" --fix",
-    "prepare": "husky install",
-    "export": "next export"
+    "prepare": "husky install"
   },
   "keywords": [
     "react",
