@@ -1,13 +1,10 @@
 # deployes the website at ./website
-name: Build and Deploy Docs
+name: Build and Deploy Website
 
 on:
   push:
     branches:
       - main
-
-env:
-  BASE_URL: /react-ui/
 
 jobs:
   build_and_deploy:
@@ -24,11 +21,12 @@ jobs:
 
       - name: Install dependecies and build
         run: |
-          cd reactui-docs/
+          cd website/
           npm install
-          CI=false npm run build
+          CI=false npm run build && npm run export && touch ./out/.nojekyll
 
-      - name: Deploy Docs
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy Website
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          folder: reactui-docs/build # The folder the action should deploy
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          folder: out # The folder the action should deploy
