@@ -23,7 +23,7 @@ jobs:
         run: |
           cd website/
           npm install
-          CI=false npm run build && npm run export && touch ./website/out/.nojekyll
+          CI=false npm run build && npm run export && touch ./out/.nojekyll
 
       - name: Deploy Website
         uses: JamesIves/github-pages-deploy-action@v4.4.1
