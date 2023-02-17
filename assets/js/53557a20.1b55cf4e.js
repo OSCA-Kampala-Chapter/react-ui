@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreactui_documentation=self.webpackChunkreactui_documentation||[]).push([[6172],{5343:e=>{e.exports=JSON.parse('{"permalink":"/react-ui/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
