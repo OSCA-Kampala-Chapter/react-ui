@@ -28,7 +28,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 # Checklist:
 
-- [ ] I have read the Contributing [Guidelines](https://github.com/OSCA-Kampala-Chapter/react-ui/issues/CONTRIBUTING.md) and made commit messages that follow the guideline.
+- [ ] I have read the [Contributing Guidelines](https://github.com/OSCA-Kampala-Chapter/react-ui/blob/main/CONTRIBUTING.md) and made commit messages that follow the guideline.
 - [ ] I have run pnpm run test to check if all tests are passing, and/or pnpm run test -- -u to update snapshots if I created and/or updated React Components.
 - [ ] I have checked that the build works locally and that npm run build work fine.
 - [ ] I've covered new added functionality with unit tests if necessary.
