@@ -21,10 +21,11 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Test B
 
 **Test Configuration**:
-* Firmware version:
-* Hardware:
-* Toolchain:
-* pnpm:
+
+- Firmware version:
+- Hardware:
+- Toolchain:
+- pnpm:
 
 # Checklist:
 
@@ -39,8 +40,4 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 ### How should this be manually tested? Please include the steps to be done inorder to setup and test this PR.
 
-
-### What are the relevant tickets? Closes #
-
-
-
+### What are the relevant tickets? Closes
