@@ -44,4 +44,4 @@ Want to contribute? Get stared with our [Contributing Guide](https://github.com/
 
 ## License
 
-[MIT](https://github.com/OSCA-Kampala-Chapter/react-ui/blob/main/LICENSE)
+[React UI is licenced under MIT licence](https://github.com/OSCA-Kampala-Chapter/react-ui/blob/main/LICENSE)
