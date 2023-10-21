@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/OSCA-Kampala-Chapter/react-ui",
   footer: {
-    text: "React UI docs",
+    text: "React UI documentation",
   },
 };
 
